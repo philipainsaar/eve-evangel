@@ -67,7 +67,7 @@ main {
     inset 0 1px 0 rgba(255, 255, 255, 0.14);
   backdrop-filter: blur(18px);
   text-align: center;
-  transform: translateY(36vh);
+  transform: translateY(33vh);
 }
 
 .eyebrow {
