@@ -32,7 +32,7 @@ export default function VideoBackgroundScene({ src = '/videos/background-loop.mp
 
     const video = document.createElement('video');
     video.src = src;
-    video.muted = true;
+    video.muted = false;
     video.loop = true;
     video.autoplay = true;
     video.playsInline = true;
@@ -240,16 +240,16 @@ export default function VideoBackgroundScene({ src = '/videos/background-loop.mp
       {!videoReady && (
         <div className="loader">
           <span className="dot" />
-          Loading MP4 background
+          Loading...
         </div>
       )}
 
       <div className="ui">
         <div className="glassCard">
-          <p className="eyebrow">Three.js video texture</p>
-          <h1>Always Loading</h1>
+          <p className="eyebrow">ĒVĒ</p>
+          <h1>....</h1>
           <p className="subtitle">
-            A looping MP4 background wrapped inside a Three.js shader, with tiny neon particles on top.
+            /////
           </p>
         </div>
       </div>
