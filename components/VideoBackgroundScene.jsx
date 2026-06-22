@@ -246,10 +246,8 @@ export default function VideoBackgroundScene({ src = '/videos/background-loop.mp
 
       <div className="ui">
         <div className="glassCard">
-          <p className="eyebrow">ĒVĒ</p>
-          <h1>....</h1>
+          <p className="eyebrow">//ĒVĒ//</p>
           <p className="subtitle">
-            /////
           </p>
         </div>
       </div>
