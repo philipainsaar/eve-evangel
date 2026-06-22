@@ -53,14 +53,14 @@ main {
   display: grid;
   place-items: center;
   pointer-events: none;
-  padding: 24px;
+  padding: 1px;
 }
 
 .glassCard {
   width: min(92vw, 560px);
-  padding: clamp(22px, 5vw, 48px);
+  padding: clamp(2px, 5vw, 8px);
   border: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: 32px;
+  border-radius: 2px;
   background: rgba(10, 8, 25, 0.34);
   box-shadow:
     0 30px 120px rgba(0, 0, 0, 0.45),
