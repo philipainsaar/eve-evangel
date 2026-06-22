@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Three.js MP4 Background',
-  description: 'Next.js + Three.js looping MP4 background',
+  title: '//ĒVĒ//',
+  description: 'Evangelion',
 };
 
 export default function RootLayout({ children }) {
